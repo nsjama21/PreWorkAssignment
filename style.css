@@ -1,89 +1,65 @@
+h2 {
+    color: blue;
+}
 
-        h2{
-            color:blue;
-        }
+h2 {
+    text-decoration: underline blue
+}
 
-        h2{
-            text-decoration: underline blue
+p {
+    font-size: 12pt;
+}
 
-        }
+ol {
+    font-style: italic;
+}
 
-        p{ 
-            font-size: 12pt;
-        }
+body {
+    background-color: pink;
+}
 
-        ol{
-            font-style: italic;
-        }
+a {
+    color: purple;
+}
 
-        body{
-            background-color: pink;
-        }
+#myCity {
+    color: green;
+}
 
-        a{
-            color: purple;
-        }
+#div1 {
+    background-color: pink;
+}
 
-        #myCity{
-            color: green;
-        }
+#div2 {
+    background-color: pink;
+}
 
-        #myFamily{
-            color: red;
-        }
+#div1,
+#div2 {
+    border: solid;
+}
 
-        .favList{
-           color: orange; 
-        }
-        #div1{
-            background-color: aquamarine;
-        }
-        #div2{
-            background-color: lightgoldenrodyellow;
-        }
-        
-        #div1, #div2 {
-            border:dashed;
-        }
+#div1,
+#div2 {
+    position: static;
+}
 
-        form{
-            padding: 15px;
-            background-color: white;
-            font-style: italic;
-            border-style: solid;
-            font-weight: 900px;
-        }
+form {
+    padding: 15px;
+    background-color: white;
+    font-style: italic;
+    border-style: solid;
+    font-weight: 900px;
+}
 
-        input[type=button]:hover {
-            border: solid;
-            background-color: rgb(0,200,0);
-        }
+input[type=button]:hover {
+    border: solid;
+    background-color: rgb(0, 200, 0);
+}
 
-        input[type=text]:focus {
-            background-color: rgb(0,330,0);
-            color: black;
-            width: 100%;
-            transition: 2s;
-        }
-        h2{
-            color:blue;
-        }
-
-        h2{
-            text-decoration: underline blue
-
-        }
-
-        #div3{
-            background-color: lightgrey;
-        }
-        #div4{
-            background-color: lightskyblue;
-        }
-
-        #div3, #div4 {
-            border:dashed;
-        }
-
-
-  
+input[type=text]:focus {
+    background-color: rgb(0, 330, 0);
+    color: black;
+    width: 100%;
+    transition: 2s;
+}
